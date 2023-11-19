@@ -4,26 +4,11 @@ FBD is a textual software compiled for windows and futurely OSX and Linux to rea
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
-
-```bash
-pip install foobar
-```
+Download from github with the Code > Download Zip button or with local git.
 
 ## Usage
 
-```python
-import foobar
-
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
-```
+Open qb64 and the file, and hit f5.
 
 ## Contributing
 
