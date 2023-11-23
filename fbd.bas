@@ -21,11 +21,13 @@ Do
     i = InStr(t, " ")
     If i Then c = Left$(t, i - 1) Else c = t
     Select Case LCase$(c)
+        Case "hnd": Shell "Software Enhaced Help.hnd"
         Case "exit": Exit Do
         Case "cls": Cls
         Case "puns": Shell "max20_puns.exe"
         Case "sans": Shell "max20_sans.exe"
         Case "ver": Print "revision: "; revision: Print ""
+        Case "conduct": Shell "CODE_OF_CONDUCT.md"
         Case "duck"
             Print "I see.."
             Shell "updated_dack.exe"
@@ -36,9 +38,12 @@ Do
             Print "SANS - display sans and toriel jokes"
             Print "VER - display version"
             Print "HELP - display this help"
+            Print "ISSUE - Go to github.com/EvrestRGB/FBD/issues"
+            Print "CONDUCT - Displays code of conduct"
             Print
         Case Else
             Print "Bad command. Running files not implemented yet.": Print
     End Select
 Loop
 System
+
