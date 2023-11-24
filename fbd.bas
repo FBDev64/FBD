@@ -24,10 +24,12 @@ Do
         Case "hnd": Shell "Software Enhaced Help.hnd"
         Case "exit": Exit Do
         Case "cls": Cls
+        Case "issue": Print "Go to github.com/EvrestRGB/FBD/issues"
         Case "puns": Shell "max20_puns.exe"
         Case "sans": Shell "max20_sans.exe"
         Case "ver": Print "revision: "; revision: Print ""
         Case "conduct": Shell "CODE_OF_CONDUCT.md"
+        Case "time": Print time$
         Case "duck"
             Print "I see.."
             Shell "updated_dack.exe"
@@ -38,7 +40,8 @@ Do
             Print "SANS - display sans and toriel jokes"
             Print "VER - display version"
             Print "HELP - display this help"
-            Print "ISSUE - Go to github.com/EvrestRGB/FBD/issues"
+            Print "HND - advanced software help"
+            Print "ISSUE - display issue methods"
             Print "CONDUCT - Displays code of conduct"
             Print
         Case Else
