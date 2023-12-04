@@ -1,6 +1,5 @@
 'To-Do list :
 
 'Faire un système d'envoi de message local à l'aide d'Ethernet.
-'Pouvoir envoyer des fichiers à l'aide de FTP
 'Le gestionnaire pourra LIRE et TéLéCHARGER des fichiers mais pas modifier ou autres.
 'Faire un système qui détecte clic droit ou gauche pour PASTE.
