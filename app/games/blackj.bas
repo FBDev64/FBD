@@ -20,6 +20,8 @@
 '
 '
 
+$ExeICON:'./card.ico'
+
 DECLARE SUB heart ()
 DECLARE SUB diamond ()
 DECLARE SUB club ()
@@ -714,28 +716,28 @@ End Sub
 Sub score
     Shared scoredealer
     Shared scoreplayer
-LINE (154, 77)-(312, 97), 15, BF   'box around "Score: ..."
-LINE (154, 77)-(312, 97), 1, B     '     "
-LOCATE 11, 22
-PRINT "Score: Dealer-"; scoredealer
-LOCATE 12, 29
-PRINT "You-   "; scoreplayer
-END SUB
+    Line (154, 77)-(312, 97), 15, BF 'box around "Score: ..."
+    Line (154, 77)-(312, 97), 1, B '     "
+    Locate 11, 22
+    Print "Score: Dealer-"; scoredealer
+    Locate 12, 29
+    Print "You-   "; scoreplayer
+End Sub
 
-SUB spade
+Sub spade
 
-SHARED x
-SHARED y
-SHARED card1
+    Shared x
+    Shared y
+    Shared card1
 
-COLOR 1
+    Color 1
 
-IF card1 = 1 THEN
-COLOR 0
-END IF
+    If card1 = 1 Then
+        Color 0
+    End If
 
-LOCATE y + 2, x + 2
-PRINT CHR$(6)
+    Locate y + 2, x + 2
+    Print Chr$(6)
 
-END SUB
+End Sub
 

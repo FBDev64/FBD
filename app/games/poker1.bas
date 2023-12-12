@@ -3,6 +3,7 @@
 'INTRE RANDURILE DUBLE DE EGALURI SE GASESTE AFISAREA CELOR CINCI CARTI !
 '============================================================================
 'EvrestRGB
+$ExeIcon:'./card.ico'
 Cls
 amban = 1000
 
