@@ -62,13 +62,13 @@ Do
             Shell "updated_dack.exe"
         Case "help":
             Print "EXIT - exit the shell"
-            Print "CLS - clear the screen"
-            Print "ECHO - displays written message in Console"
+            Print "CLS - clears the screen"
+            Print "ECHO - display written message in Console"
             Print "FTP - opens FTP mode"
             Print "PUNS - display puns"
             Print "SANS - display sans and toriel jokes"
             Print "LINKS - display some links"
-            Print "GAMES - dispolays commands for Games"
+            Print "GAMES - display commands for Games"
             Print "VER - display version"
             Print "HELP - display this help"
             Print "HND - advanced software help"
@@ -79,5 +79,4 @@ Do
             Print "Bad command. Running files not implemented yet.": Print
     End Select
 Loop
-System
-
+End
