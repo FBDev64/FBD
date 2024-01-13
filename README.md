@@ -5,11 +5,13 @@ FBD is a textual software compiled for windows and futurely OSX and Linux to rea
 ## Technical Badges
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-## Installation
-
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) <br>
 Note that all the code was written using QB64.
 
+## Jetbrains OSS
+Hello, Jetbrains. I want to say that this repository will be updated when we will obtain GoLand License. Thank you.
+
+## Installation
 Download from github with the Code > Download Zip button or with local git.
 
 ## Usage
@@ -26,6 +28,3 @@ Please make sure to update tests as appropriate.
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
-
-## Jetbrains OSS
-Hello, Jetbrains. I want to say that this repository will be updated when we will obtain GoLand License. Thank you.
