@@ -6,8 +6,9 @@ FBD is a textual software compiled for windows and futurely OSX and Linux to rea
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![Vim](https://img.shields.io/badge/VIM-%2311AB00.svg?style=for-the-badge&logo=vim&logoColor=white)
 ## Installation
+
+Note that all the code was written using QB64.
 
 Download from github with the Code > Download Zip button or with local git.
 
