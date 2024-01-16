@@ -1,4 +1,0 @@
-FTP server : ftp.cluster028.hosting.ovh.net
-user : benchsd
-PASSWD : aDAM101211
-port : 21
