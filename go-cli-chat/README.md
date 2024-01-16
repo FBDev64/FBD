@@ -1,5 +1,3 @@
-[![Go Report Card](https://goreportcard.com/badge/github.com/Luqqk/go-cli-chat)](https://goreportcard.com/report/github.com/Luqqk/go-cli-chat)
-
 ## 💬 go-cli-chat
 
 Chat server and client written in Go (simple prototype for learning purposes). The application utilizes goroutines and channels.
