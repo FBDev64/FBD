@@ -20,12 +20,14 @@ Open qb64 and the file, and hit f5. Or, use the .exe Futurely, it will be compil
 ## Our plans
 We will integrate a textual Web Browser, a Text/Code editor based on commands like Vi/Vim, improve the chat system and deploy it to a real server, create an FTP Server specially for FBD, a micro-blogging textuall app, and an Academy, to learn to code in C, Makefile, Qbasic, Shell, Python, Rust, Assembly. Small learning projects will be included!. All that, in different technologies. (We will try to make it as lightweight as possible)
 
-## Contributing
+## Contributing and Bug Reporting
 
 Pull requests are welcome. For major changes, please open an issue first
 to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
+
+To report a bug, please use a Screen Recorder with logs (Dashcam) and open an issue. Attach the file, or upload to elzadam11gmail.com
 
 ## License
 
