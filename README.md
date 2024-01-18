@@ -27,7 +27,7 @@ to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
 
-To report a bug, please use a Screen Recorder with logs (Dashcam) and open an issue. Attach the file, or upload to elzadam11gmail.com
+To report a bug, please use a Screen Recorder with logs (Dashcam) and open an issue. Attach the file, or upload to <a href="mailto:elzadam11gmail.com">Email</a>
 
 ## License
 
