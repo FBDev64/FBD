@@ -20,10 +20,8 @@ Dim t As String, c As String
 Dim i As Integer
 
 Do
-    Print ">";
-    If _MouseButton(1) = True Then
-        'Code Logic
-    End If
+    Print "> ";
+
     Line Input t
     i = InStr(t, " ")
     If i Then c = Left$(t, i - 1) Else c = t
@@ -50,12 +48,11 @@ Do
         Case "exit": Exit Do
         Case "cls": Cls
         Case "issue": Print "Go to github.com/EvrestRGB/FBD/issues"
-        Case "puns": Shell "max20_puns.exe"
-        Case "sans": Shell "max20_sans.exe"
+        Case "puns": Shell "./readers/puns.c"
+        Case "sans": Shell "./readers/sans.c"
         Case "ver": Print "revision: "; revision: Print ""
         Case "conduct": Shell "CODE_OF_CONDUCT.md"
-        Case "links": Shell "links.txt"
-        Case "ftp": Shell "ftp.exe"
+        Case "links": Shell "./readers/links.c"
         Case "time": Print Time$
         Case "duck":
             Print "I see.."
