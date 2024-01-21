@@ -35,3 +35,6 @@ To report a bug, please use a Screen Recorder with logs (Dashcam) and open an is
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
+
+## Test Video & Issues in it
+
