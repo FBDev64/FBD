@@ -23,14 +23,12 @@ We will integrate a textual Web Browser, a Text/Code editor based on commands li
 ## Make
 We need a Makefile for our project, and in this case, we need a QB64 cli compiler. If anyone provides one, even if that person have not developed it, will be part of project.
 
-## Contributing and Bug Reporting
+## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first
 to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
-
-To report a bug, please use a Screen Recorder with logs (Dashcam) and open an issue. Attach the file, or upload to <a href="mailto:elzadam11gmail.com">Email</a>
 
 ## License
 
