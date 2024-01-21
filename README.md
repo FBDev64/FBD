@@ -38,3 +38,6 @@ To report a bug, please use a Screen Recorder with logs (Dashcam) and open an is
 
 ## Test Video & Issues in it
 
+<video width="320" height="240" controls>
+  <source src="./test/qb64 2024-01-21 16-28-12-71.avi" type="video/avi">
+</video>
