@@ -3,11 +3,11 @@
 Rem Init Code
 
 $ExeIcon:'./pngkit.ico'
-Const bio$ = "FunnyBones Broadcast, 2015"
+Const bio$ = "FunnyBones"
 _Title bio$
 
 Const initial = "1996 10 12"
-Const revision = "2023 11 15"
+Const revision = "2024 1 21"
 
 Rem Main Part, contains main code
 
