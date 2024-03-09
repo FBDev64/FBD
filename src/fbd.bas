@@ -48,11 +48,11 @@ Do
         Case "exit": Exit Do
         Case "cls": Cls
         Case "issue": Print "Go to github.com/EvrestRGB/FBD/issues"
-        Case "puns": Shell "./readers/puns.c"
-        Case "sans": Shell "./readers/sans.c"
+        Case "puns": Shell "./readers/puns"
+        Case "sans": Shell "./readers/sans"
         Case "ver": Print "revision: "; revision: Print ""
         Case "conduct": Shell "CODE_OF_CONDUCT.md"
-        Case "links": Shell "./readers/links.c"
+        Case "links": Shell "./readers/links"
         Case "time": Print Time$
         Case "duck":
             Print "I see.."
