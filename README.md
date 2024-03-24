@@ -4,8 +4,9 @@ FBD is a textual software compiled for Linux(mainly Arch, and Debian based) and 
 
 ## Technical Badges
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) <br>
-Note that all the code was written using QB64, and we'd want to have GoLand License.
+![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) <br>
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+Made with Vim 😎 and Arch.
 
 ## Jetbrains OSS
 You declined all my requests, so I'll use Vim(best editor).
