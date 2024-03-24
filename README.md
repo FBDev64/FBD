@@ -6,7 +6,7 @@ FBD is a textual software compiled for Linux(mainly Arch, and Debian based) and 
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-Made with Vim 😎 and Arch.
+<br>Made with Vim 😎 and Arch.
 
 ## Jetbrains OSS
 You declined all my requests, so I'll use Vim(best editor).
