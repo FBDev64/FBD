@@ -1,0 +1,4 @@
+Add :
+	Debian & Derivates: Debian, Ubuntu, Pop_OS!, Kali
+	Arch : Arch, Arctix, EndeavourOS, Manjaro
+	Fedora : Asahi, Berry, MontanaOS, QubesOS, VortexOS
