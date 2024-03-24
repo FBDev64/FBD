@@ -11,7 +11,7 @@ Note that all the code was written using QB64, and we'd want to have GoLand Lice
 You declined all my requests, so I'll use Vim(best editor).
 
 ## Installation
-Download from github with the Code > Download Zip button or with local git.
+[Releases](https://github.com/FBDev64/FBD/releases) or by compiling.
 
 ## Compiling
 
