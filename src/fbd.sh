@@ -25,7 +25,7 @@ while true
         2. Don't insult or any things like that
         3. Always have a Sans sticker in your desktop wallpaper
         4. Chew gum while using the software
-        5. Every Arch user shoulds ay "I use Arch, BTW" every day on the chat.\n"
+        5. Every Arch user shoulds say that he uses Arch BTW"
     fi
     if "$VHS" == "cls"; then
         clear
