@@ -15,17 +15,16 @@ while true
         echo "exit"
         echo "list"
         echo "rules"
+        echo "cls"
+        echo "puns"
+        echo "sans"
+        echo "issue"
     fi
     if "$VHS" == "exit"; then
         exit
     fi
     if "$VHS" == "rules"; then
-        echo "There is not much rules but :\n
-        1. Be silly and trolly
-        2. Don't insult or any things like that
-        3. Always have a Sans sticker in your desktop wallpaper
-        4. Chew gum while using the software
-        5. Every Arch user shoulds say that he uses Arch BTW"
+        gum pager ./rules.txt
     fi
     if "$VHS" == "cls"; then
         clear
