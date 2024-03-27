@@ -26,7 +26,7 @@ And choose the file then edit.
 
 ## Charm_
 
-A special thanks to all members of [Charm_ team]((https://charm.sh/), for developing Gum, and helping me debug `fbd.sh` and probably other code. A big big thanks.
+A special thanks to all members of [Charm_ team](https://charm.sh/), for developing Gum, and helping me debug `fbd.sh` and probably other code. A big big thanks.
 To Community : Please, use Pop for sending and receiving mails, best client. Use gum for your Shell scripts, Mods for AI, VHS for recording Terminal (used for FBD demo) and Soft-Serve for launcing git server. Really useful, boosted my productivity, and terminal loving.
 
 GitHub : https://github.com/charmbracelet
