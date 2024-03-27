@@ -8,7 +8,7 @@ while true
   do 
 
     #Input
-    VHS=$(gum input > history.txt --placeholder " Enter Command")
+    VHS=$(gum input > ./config/history.txt --placeholder " Enter Command")
 
     # Treat Inpuit
     if [ "$VHS" '==' "list" ]; then
