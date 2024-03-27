@@ -8,18 +8,18 @@ while true
   do 
 
     #Input
-    VHS=$(gum input > ./config/history.txt --placeholder " Enter Command")
+    VHS=$(gum input --placeholder " Enter Command")
 
     # Treat Inpuit
-    if [ "$VHS" '==' "list" ]; then
+    if "$VHS" '==' "list"; then
         echo "exit"
         echo "list"
         echo "rules"
     fi
-    if [ "$VHS" '==' "exit" ]; then
+    if "$VHS" '==' "exit"; then
         exit
     fi
-    if [ "$VHS" '==' "rules" ]; then
+    if "$VHS" '==' "rules"; then
         echo "There is not much rules but :\n
         1. Be silly and trolly
         2. Don't insult or any things like that
@@ -27,18 +27,19 @@ while true
         4. Chew gum while using the software
         5. Every Arch user shoulds ay "I use Arch, BTW" every day on the chat.\n"
     fi
-    if [ "$VHS" '==' "cls" ]; then
+    if "$VHS" '==' "cls"; then
         clear
     fi
-    if [ "$VHS" '==' "issue" ]; then
+    if "$VHS" '==' "issue"; then
         echo "Go to github.com/fbdev64/FBD/issues and report it."
     fi
-    if [ "$VHS" '==' "sans" ]; then
+    if "$VHS" '==' "sans"; then
         gum pager ./jokes/sans.txt
     fi
-    if [ "$VHS" '==' "puns" ]; then
+    if "$VHS" '==' "puns"; then
         ggu pager ./jokes/puns.txt
     fi
-    if [ "$VHS" '==' "time" ]; then
+    if "$VHS" '==' "time"; then
         echo $date
     fi
+done
