@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Customize Console
 # set-title FBD
@@ -10,35 +10,23 @@ while true
     #Input
     VHS=$(gum input --placeholder " Enter Command")
 
-    # Treat Inpuit
-    if "$VHS" == "list"; then
-        echo "exit"
-        echo "list"
-        echo "rules"
-        echo "cls"
-        echo "puns"
-        echo "sans"
-        echo "issue"
-    fi
-    if "$VHS" == "exit"; then
-        exit
-    fi
-    if "$VHS" == "rules"; then
-        gum pager ./rules.txt
-    fi
-    if "$VHS" == "cls"; then
-        clear
-    fi
-    if "$VHS" == "issue"; then
-        echo "Go to github.com/fbdev64/FBD/issues and report it."
-    fi
-    if "$VHS" == "sans"; then
-        gum pager ./jokes/sans.txt
-    fi
-    if "$VHS" == "puns"; then
-        ggu pager ./jokes/puns.txt
-    fi
-    if "$VHS" == "time"; then
-        echo $date
-    fi
+    # Treat Input
+	case $VHS in 
+	
+		exit)
+			exit
+			;;
+		clear | cls)
+			clear
+			;;
+		puns)
+			gum pager ./jokes/puns.txt
+			;;
+		other)
+			gum pager ./jokes/sans.txt
+			;;
+	*)
+		echo -n "Command unknown or not implemented yet."
+		;;
+	esac	
 done
