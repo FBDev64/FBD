@@ -6,23 +6,17 @@ FBD is a textual software in Shell or Hell(as ya want, pal) and mainly for Arch 
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-<br>Made with Vim 😎 and Arch.
+<br>Made with Nano😎 and Arch.
 
 ## Jetbrains OSS
-You declined all my requests, so I'll use Vim(best editor).
+You declined all my requests, so I'll use Nano(best editor).
 
 ## Compile
 Just do the following :
 ```bash
 git clone https://github.com/FBDev64/FBD
-cd FBD/src
-sh FBD.sh
+cmod +x setup.sh
 ```
-And for the editor, clone and do :
-```bash
-sh edit.sh
-```
-And choose the file then edit.
 
 ## Charm_
 
