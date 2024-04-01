@@ -15,6 +15,7 @@ You declined all my requests, so I'll use Nano(best editor).
 Just do the following :
 ```bash
 git clone https://github.com/FBDev64/FBD
+cd FBD
 cmod +x setup.sh
 ```
 
