@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Customize Console
-PROMPT_COMMAND='echo -en "\033]0;$(whoami)@$(hostname)|$(FBD|cut -d "/" -f 4-100)\a"'
+PROMPT_COMMAND='echo -en "\033]0;$(FBD|cut -d "/" -f 4-100)\a"'
 now=$(date)
 echo "Undertale Jokes, that's all. Mainly. You know, as ya want."
 
@@ -20,11 +20,8 @@ while true
 		clear | cls)
 			clear
 			;;
-		puns)
+		puns | jokes | haha | hahaha |laugh | blague)
 			gum pager < puns.txt
-			;;
-		sans)
-			gum pager < sans.txt
 			;;
 		help)
 			echo "clear"
