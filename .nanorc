@@ -1,6 +1,3 @@
-# Nano Configration file
-# Paste it to your ~ directory.
-
 # Automatically continues indent
 set autoindent
 
@@ -10,6 +7,21 @@ set softwrap
 # Tabsize
 set tabsize 2
 
-# Syntax Highlighting
+# Syntax
 include "/usr/share/nano/*.nanorc"
-include "/usr/share/nano-syntax-higlhighting/*.nanorc"
+include "/usr/share/nano/*.nanorc"
+
+# Set backup
+set backup
+
+# Backup dir
+set backupdir "/home/fbdev/nano-backups"
+
+# Set casesensitive
+set casesensitive
+
+# Set historylog
+set historylog
+
+# Set mouse
+set mouse 
