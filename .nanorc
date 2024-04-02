@@ -10,6 +10,6 @@ set softwrap
 # Tabsize
 set tabsize 2
 
-# Syntax Highlighting
+# Syntax
 include "/usr/share/nano/*.nanorc"
-include "/usr/share/nano-syntax-higlhighting/*.nanorc"
+include "/usr/share/nano/*.nanorc"
