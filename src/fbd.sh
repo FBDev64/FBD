@@ -21,10 +21,10 @@ while true
 			clear
 			;;
 		puns)
-			gum pager > ./jokes/puns.txt
+			gum pager < puns.txt
 			;;
 		sans)
-			gum pager > ./jokes/sans.txt
+			gum pager < sans.txt
 			;;
 		help)
 			echo "clear"
