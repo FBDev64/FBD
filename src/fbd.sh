@@ -14,7 +14,7 @@ while true
     # Treat Input
 	case $VHS in 
 	
-		exit)
+		exit | q | esc | bye)
 			exit
 			;;
 		clear | cls)
