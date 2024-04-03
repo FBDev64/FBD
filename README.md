@@ -14,9 +14,9 @@ You declined all my requests, so I'll use Nano(best editor).
 ## Compile
 Just do the following :
 ```bash
-git clone https://github.com/FBDev64/FBD
-cd FBD
+git clone https://github.com/FBDev64/FBD && cd FBD
 sh ./setup.sh
+./src/fd.sh
 ```
 
 ## Charm_
