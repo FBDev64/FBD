@@ -20,8 +20,8 @@ while true
 		clear | cls)
 			clear
 			;;
-		puns | jokes | haha | hahaha |laugh | blague)
-			gum pager < puns.txt
+		puns)
+			gum pager < under.txt
 			;;
 		help)
 			echo "clear"
