@@ -46,6 +46,12 @@ while true
 		time | date)
 			echo "$now"
 			;;
+   		duck | goose)
+     			echo "$(duck.txt )"
+			;;
+   		annoy | dog)
+     			echo "$(dog.txt )"
+			;;
 		*)
 		echo -n "Command unknown or not implemented yet."
 		;;
