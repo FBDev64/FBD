@@ -16,7 +16,7 @@ Just do the following :
 ```bash
 git clone https://github.com/FBDev64/FBD
 cd FBD
-cmod +x setup.sh
+sh ./setup.sh
 ```
 
 ## Charm_
