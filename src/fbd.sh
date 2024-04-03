@@ -23,17 +23,19 @@ while true
 		puns)
 			gum pager < under.txt
 			;;
+   		nintendo)
+     			gum pager < nintendo.txt
+			;;
 		help)
-			echo "clear"
-			echo "cls"
-			echo "date"
-			echo "exit"
-			echo "help"
-			echo "issue"
-			echo "puns"
-			echo "rules"
-			echo "sans"
-			echo "time"
+			echo "CLEAR - Clear screen"
+			echo "CLS - Clear Screen"
+			echo "DATE - Display current Date and Time"
+			echo "EXIT - Exits software"
+			echo "HELP - Display this help"
+			echo "ISSUE - Link to report an issue or a feauture"
+			echo "PUNS - Display Undertale puns"
+			echo "RULES - Display rules"
+			echo "NINTENDO - Display Nintendo Jokes"
 			;;
 		issue)
 			echo "Report issue at github.com/FBD/issues"
