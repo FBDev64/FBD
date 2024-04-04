@@ -13,15 +13,17 @@ Thank you for accepting my request. Nano when no Ram, Clion when Ram.
 ## Compile
 Just do the following :
 ```bash
+pacman -S gum
 git clone https://github.com/FBDev64/FBD && cd FBD
 sh ./setup.sh
 ./src/fd.sh
 ```
+The only dependency is Gum. You need it in order to run FBD correctly, else you'll et an error.
 
 ## Charm_
 
 A special thanks to all members of [Charm_ team](https://charm.sh/), for developing Gum, and helping me debug `fbd.sh` and probably other code. A big big thanks.
-To Community : Please, use Pop for sending and receiving mails, best client. Use gum for your Shell scripts, Mods for AI, VHS for recording Terminal (used for FBD demo) and Soft-Serve for launcing git server. Really useful, boosted my productivity, and terminal loving.
+To Community : Please, use Pop for sending and receiving mails, best client. Use gum for your Shell scripts, Mods for AI, VHS for recording Terminal (used for FBD demo) and Soft-Serve for launcing git server. Really useful, boosted my productivity, and terminal loving. Not sponsored.
 
 GitHub : https://github.com/charmbracelet
 Website : https://charm.sh
