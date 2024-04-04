@@ -8,7 +8,7 @@ FBD is a textual software in Shell or Hell(as ya want, pal) and mainly for Arch 
 <br>Made with Nano😎 and Arch.
 
 ## Jetbrains OSS
-You declined all my requests, so I'll use Nano(best editor).
+Thank you for accepting my request. Nano when no Ram, Clion when Ram.
 
 ## Compile
 Just do the following :
