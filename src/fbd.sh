@@ -32,7 +32,7 @@ while true
 			echo "DATE - Display current Date and Time"
 			echo "EXIT - Exits software"
 			echo "HELP - Display this help"
-			echo "ISSUE - Link to report an issue or a feauture"
+			echo "ISSUE - Link to report an issue or a feature"
 			echo "PUNS - Display Undertale puns"
 			echo "RULES - Display rules"
 			echo "NINTENDO - Display Nintendo Jokes"
