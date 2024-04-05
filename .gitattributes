@@ -1,2 +1,2 @@
  *.sh linguist-detectable=true
-*.bas linguist-detectable=true
+*.bas linguist-detectable=false
