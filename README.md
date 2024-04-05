@@ -7,8 +7,8 @@ FBD is a textual software in Shell or Hell(as ya want, pal) and mainly for Arch 
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 <br>Made with Nano😎 and Arch.
 
-## Jetbrains OSS
-Thank you for accepting my request. Nano when no Ram, Clion when Ram.
+## Go
+The Chat will be written in Go. When I'll learn it. Yes, IDK Go but it's cool.
 
 ## Compile
 Just do the following :
