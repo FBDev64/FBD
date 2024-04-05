@@ -16,7 +16,7 @@ Just do the following :
 pacman -S gum
 git clone https://github.com/FBDev64/FBD && cd FBD
 sh ./setup.sh
-./src/fd.sh
+./src/fbd.sh
 ```
 The only dependency is Gum. You need it in order to run FBD correctly, else you'll et an error.
 
