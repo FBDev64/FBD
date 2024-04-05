@@ -6,14 +6,14 @@ now=$(date)
 echo "Undertale Jokes, that's all. Mainly. You know, as ya want."
 
 while true
-  do 
+  do
 
     #Input
     VHS=$(gum input --placeholder " Enter Command")
 
     # Treat Input
-	case $VHS in 
-	
+	case $VHS in
+
 		exit | q | esc | bye)
 			exit
 			;;
@@ -36,13 +36,17 @@ while true
 			echo "PUNS - Display Undertale puns"
 			echo "RULES - Display rules"
 			echo "NINTENDO - Display Nintendo Jokes"
+			echo "EDIT - Display file selector and your default editor"
+			;;
+		edit | text | txt | file | editor | nano | vim | vi)
+			$EDITOR $(gum file $FBD)
 			;;
 		issue)
 			echo "Report issue at github.com/FBD/issues"
 			;;
 		rules)
 			echo "3 rules : 1. do NOT insult and NO NSFW. 2. BE a troll 3. Arch users should use the command arch on every startup."
-			;;	
+			;;
 		time | date)
 			echo "$now"
 			;;
@@ -52,8 +56,9 @@ while true
    		annoy | dog)
      			echo "$(dog.txt )"
 			;;
+
 		*)
 		echo -n "Command unknown or not implemented yet."
 		;;
-	esac	
+	esac
 done
