@@ -1,2 +1,3 @@
 #!/bin/bash
-chmod 777 ./src/fbd.sh
+cp /src/fbd.sh .
+chmod 777 ./fbd.sh
