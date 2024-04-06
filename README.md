@@ -15,7 +15,7 @@ git clone https://github.com/FBDev64/FBD && cd FBD
 sh ./setup.sh
 ./src/fbd.sh
 ```
-The only dependency is Gum. You need it in order to run FBD correctly, else you'll et an error.
+The only dependency is Gum. You need it in order to run FBD correctly, else you'll get an error.
 
 ## Charm_
 
