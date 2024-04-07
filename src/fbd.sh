@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/env sh
 
 # Customize Console
 PROMPT_COMMAND='echo -en "\033]0;$(FBD|cut -d "/" -f 4-100)\a"'
