@@ -10,12 +10,12 @@ FBD is a textual software in Shell or Hell(as ya want, pal) and mainly for Arch 
 ## Compile
 Just do the following :
 ```bash
-pacman -S gum
+brew install gum
 git clone https://github.com/FBDev64/FBD && cd FBD
 sh ./setup.sh
 ./src/fbd.sh
 ```
-The only dependency is Gum. You need it in order to run FBD correctly, else you'll get an error.
+The only dependency is Gum. You need it in order to run FBD correctly, else you'll get an error. Prefer using your distro's package manager instead of Brew, btw.
 
 ## Charm_
 
