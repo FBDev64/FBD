@@ -16,6 +16,9 @@ sh ./setup.sh
 ```
 The only dependency is Gum. You need it in order to run FBD correctly, else you'll get an error. Download it with you pkg manager like pacman or dnf. Unless you use brew.
 
+## Windows
+If you want to use it on windows, see the 'windows' branchin the repo. Change to it and read the README.
+
 ## Charm_
 
 A special thanks to all members of [Charm_ team](https://charm.sh/), for developing Gum, and helping me debug `fbd.sh` and probably other code. A big big thanks.
