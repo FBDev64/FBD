@@ -45,7 +45,7 @@ while true
 			echo "Report issue at github.com/FBD/issues"
 			;;
 		rules)
-			echo "3 rules : 1. do NOT insult and NO NSFW. 2. BE a troll 3. Arch users should use the command arch on every startup."
+			gum pager < ./src/rules.txtq
 			;;
 		time | date)
 			echo "$now"
