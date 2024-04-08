@@ -51,10 +51,10 @@ while true
 			echo "$now"
 			;;
    		duck | goose)
-     			echo "$(duck.txt )"
+     			gum pager < ./src/duck.txt
 			;;
    		annoy | dog)
-     			echo "$(dog.txt )"
+     			gum pager < ./src/dog.txt
 			;;
 
 		*)
