@@ -1,3 +1,3 @@
 #!/bin/sh
 chmod 777 ./src/fbd.sh
-echo "execute ./src/fbd.sh to run FBD"
+echo "Setup successful. Execute ./src/fbd.sh to run FBD"
