@@ -20,11 +20,11 @@ while true
 		clear | cls)
 			clear
 			;;
-		puns)
-			gum pager < under.txt
+		puns | under)
+			gum pager < ./src/under.txt
 			;;
    		nintendo)
-     			gum pager < nintendo.txt
+     			gum pager < ./src/nintendo.txt
 			;;
 		help)
 			echo "CLEAR - Clear screen"
