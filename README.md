@@ -8,16 +8,20 @@ FBD is a textual software in Shell or Hell(as ya want, pal) and mainly for Arch 
 <br>Made with Nano😎 and Arch.
 
 ## Compile
-Just do the following :
+Arch-Based :
 ```bash
 git clone https://github.com/FBDev64/FBD && cd FBD
 sh ./setup.sh
 ./src/fbd.sh
 ```
-The only dependency is Gum. You need it in order to run FBD correctly, else you'll get an error. Download it with you pkg manager like pacman or dnf. Unless you use brew.
+Non-Arch :
+```bash
+git clone https://github.com/FBDev64/FBD && cd FBD
+chmod 777 ./src/fbd.sh
+./src/fbd.sh
+```
 
-## Windows
-If you want to use it on windows, see the 'windows' branchin the repo. Change to it and read the README.
+The only dependency is Gum. You need it in order to run FBD correctly, else you'll get an error. Download it with brew or your package manager. If you are on Arch Based, just execute the Script, it will download it with Pacman.
 
 ## Charm_
 
