@@ -33,13 +33,13 @@ while true
 			$EDITOR $(gum file $FBD)
 			;;
 		issue)
-			echo "Report issue at github.com/FBD/issues"
+			gum log --level info "Report issue at github.com/FBD/issues"
 			;;
 		rules)
 			gum pager < ./src/rules.txt
 			;;
 		time | date)
-			echo "$now"
+			gum log --level info "$now"
 			;;
    		duck | goose)
      			gum pager < ./src/duck.txt
@@ -49,7 +49,7 @@ while true
 			;;
 
 		*)
-		echo -n "Command unknown or not implemented yet."
+		echo -n "$(gum log --level error 'Command not found not implemented yet.')"
 		;;
 	esac
 done
