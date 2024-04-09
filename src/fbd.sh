@@ -27,16 +27,7 @@ while true
      			gum pager < ./src/nintendo.txt
 			;;
 		help)
-			echo "CLEAR - Clear screen"
-			echo "CLS - Clear Screen"
-			echo "DATE - Display current Date and Time"
-			echo "EXIT - Exits software"
-			echo "HELP - Display this help"
-			echo "ISSUE - Link to report an issue or a feature"
-			echo "PUNS - Display Undertale puns"
-			echo "RULES - Display rules"
-			echo "NINTENDO - Display Nintendo Jokes"
-			echo "EDIT - Display file selector and your default editor"
+			gum pager < ./src/cmd.txt
 			;;
 		edit | text | txt | file | editor | nano | vim | vi)
 			$EDITOR $(gum file $FBD)
@@ -45,7 +36,7 @@ while true
 			echo "Report issue at github.com/FBD/issues"
 			;;
 		rules)
-			gum pager < ./src/rules.txtq
+			gum pager < ./src/rules.txt
 			;;
 		time | date)
 			echo "$now"
