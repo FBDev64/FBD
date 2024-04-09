@@ -26,7 +26,7 @@ The only dependency is Gum. You need it in order to run FBD correctly, else you'
 ## Charm_
 
 A special thanks to all members of [Charm_ team](https://charm.sh/), for developing Gum, and helping me debug `fbd.sh` and probably other code. A big big thanks.
-Not Sponsored.
+**Not Sponsored**.
 
 GitHub : https://github.com/charmbracelet <br>
 Website : https://charm.sh<br>
