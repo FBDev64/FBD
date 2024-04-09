@@ -5,7 +5,7 @@ FBD is a textual software in Shell or Hell(as ya want, pal) and mainly for Arch 
 ## Technical Badges
 ![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-<br>Made with Nano😎 and Arch.
+<br>Made with Nano 😎 and Arch.
 
 ## Compile
 Arch-Based :
