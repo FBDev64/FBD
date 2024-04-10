@@ -24,6 +24,10 @@ chmod 777 ./src/fbd.sh
 
 The only dependency is Gum. You need it in order to run FBD correctly, else you'll get an error. Download it with brew or your package manager. If you are on Arch Based, just execute the Script, it will download it with Pacman.
 
+```bash
+brew install gum
+```
+
 ## Charm_
 
 A special thanks to all members of [Charm_ team](https://charm.sh/), for developing Gum, and helping me debug `fbd.sh` and probably other code. A big big thanks.
