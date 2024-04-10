@@ -49,7 +49,7 @@ while true
 			;;
 
 		*)
-		echo -n "$(gum log --level error 'Command not found not implemented yet.')"
+		echo -n "Command not found or not implemented yet."
 		;;
 	esac
 done
