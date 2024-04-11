@@ -30,7 +30,7 @@ while true
 			gum pager < ./src/cmd.txt
 			;;
 		edit | text | txt | file | editor | nano | vim | vi)
-			'$EDITOR $(gum file "$FBD")'
+			$EDITOR "$(gum file "$FBD")"
 			;;
 		issue)
 			gum log --level info "Report issue at github.com/FBD/issues"
