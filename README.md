@@ -9,18 +9,17 @@ First to discover all easter eggs wins.
 <br>Made with Nano 😎 and Arch.
 
 ## Compile
-Non-Arch :
 ```bash
 git clone https://github.com/FBDev64/FBD && cd FBD
 chmod +x launcher.sh
 ```
+Then run the `launcher.sh` file.
 
 The only dependency is Gum. You need it in order to run FBD correctly, else you'll get an error. Download it with brew or your package manager.
 
 ```bash
 brew install gum
 ```
-Then run the `launcher.sh` file.
 
 ## Dev Channel
 Introducing FPM(FBD Package Manager) that will parse a SQL query that contains name and URL that he will then cURL and execute.
