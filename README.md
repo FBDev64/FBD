@@ -22,7 +22,7 @@ brew install gum
 ```
 
 ## Dev Channel
-Introducing FPM(FBD Package Manager) that will parse a SQL query that contains name and URL that he will then cURL and execute.
+Introducing FPM(FBD Package Manager) that will parse a SQL query that contains name and URL that he will then cURL and execute. Maybe using AWK.
 
 ## Charm_
 
