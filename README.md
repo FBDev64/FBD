@@ -24,6 +24,7 @@ Then run the `launcher.sh` file.
 
 ## Dev Channel
 Introducing FPM(FBD Package Manager) that will parse a SQL query that contains name and URL that he will then cURL and execute.
+
 ## Charm_
 
 A special thanks to all members of [Charm_ team](https://charm.sh/), for developing Gum, and helping me debug `fbd.sh` and probably other code. A big big thanks.
