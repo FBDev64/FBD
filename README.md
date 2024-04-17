@@ -26,6 +26,9 @@ The only dependency is Gum. You need it in order to run FBD correctly, else you'
 brew install gum
 ```
 Then run it as a normal .sh file : `./src/fbd.sh`
+
+## Dev Channel
+Introducing FPM(FBD Package Manager) that will parse a SQL query that contains name and URL that he will then cURL and execute.
 ## Charm_
 
 A special thanks to all members of [Charm_ team](https://charm.sh/), for developing Gum, and helping me debug `fbd.sh` and probably other code. A big big thanks.
