@@ -13,13 +13,11 @@ Arch-Based :
 ```bash
 git clone https://github.com/FBDev64/FBD && cd FBD
 sh ./setup.sh
-./src/fbd.sh
 ```
 Non-Arch :
 ```bash
 git clone https://github.com/FBDev64/FBD && cd FBD
-chmod 777 ./src/fbd.sh
-./src/fbd.sh
+chmod +x ./src/fbd.sh
 ```
 
 The only dependency is Gum. You need it in order to run FBD correctly, else you'll get an error. Download it with brew or your package manager. If you are on Arch Based, just execute the Script, it will download it with Pacman.
@@ -27,7 +25,7 @@ The only dependency is Gum. You need it in order to run FBD correctly, else you'
 ```bash
 brew install gum
 ```
-
+Then run it as a normal .sh file : `./src/fbd.sh`
 ## Charm_
 
 A special thanks to all members of [Charm_ team](https://charm.sh/), for developing Gum, and helping me debug `fbd.sh` and probably other code. A big big thanks.
