@@ -1,28 +1,26 @@
 #!/bin/bash
 
-chmod +x *.sh
+# CHMOD All files (.sh)
+find . -type f -iname "*.sh" -exec chmod +x {} \;
 
 # Main choice function
 function choice () {
-	MAI=$(gum input --placeholder "[S]cripts, [F]BD")
+	MAI=$(gum input --placeholder "[S]cripts, [F]BD, [Q]uit")
 	
 	if [ "$MAI" = "F" ]; then
 		./src/fbd.sh
 	fi
 	if [ "$MAI" = "S" ]; then
 		SCH=$(gum input --placeholder "[S]witch, [D]ownloader")
-
+	fi
 		if [ "$SCH" = "S" ]; then
 			./src/scripts/switch.sh
 		fi
 		if [ "$SCH" = "D" ]; then
 			./src/scripts/downloader.sh
 		fi
-		else
-			gum log --level error "Command not found or not implemented yet."
-		fi
-	if [ "$MAI" != "F" ] || [ "$MAI" != "S" ]; then
-		gum log --level error "Command not found or not implemented yet."
+	if [ "$MAI" = "Q" ]; then
+		exit
 	fi
 }
 
