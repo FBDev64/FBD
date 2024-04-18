@@ -20,10 +20,6 @@ The only dependency is Gum. You need it in order to run FBD correctly, else you'
 ```bash
 brew install gum
 ```
-
-## Dev Channel
-Just setting up a SoftServe git server so, when my computer's open, you can connect to it.
-
 ## Charm_
 
 A special thanks to all members of [Charm_ team](https://charm.sh/), for developing Gum, and helping me debug `fbd.sh` and probably other code. A big big thanks.
