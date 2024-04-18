@@ -22,7 +22,7 @@ brew install gum
 ```
 
 ## Dev Channel
-Introducing FPM(FBD Package Manager) that will parse a SQL query that contains name and URL that he will then cURL and execute. Maybe using AWK.
+Just setting up a SoftServe git server so, when my computer's open, you can connect to it.
 
 ## Charm_
 
