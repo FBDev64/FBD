@@ -27,7 +27,7 @@ while true
      			gum pager < ./src/nintendo.txt
 			;;
 		help)
-			gum pager < ./src/cmd.txt
+			gum pager < ./doc.md
 			;;
 		edit | text | txt | file | editor | nano | vim | vi)
 			$EDITOR "$(gum file "$FBD")"
