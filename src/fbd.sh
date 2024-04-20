@@ -35,18 +35,15 @@ while true
 		issue)
 			gum log --level info "Report issue at github.com/FBD/issues"
 			;;
-		rules)
-			gum pager < ./src/rules.txt
-			;;
 		time | date)
 			gum log --level info "$now"
 			;;
-   		duck | goose)
-     			gum pager < ./src/duck.txt
-			;;
-   		annoy | dog)
-     			gum pager < ./src/dog.txt
-			;;
+   	duck | goose)
+     		gum pager < ./src/duck.txt
+				;;
+   	annoy | dog)
+     		gum pager < ./src/dog.txt
+				;;
 
 		*)
 		echo -n "Command not found or not implemented yet."
