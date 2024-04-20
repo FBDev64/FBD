@@ -22,7 +22,7 @@ brew install gum
 ```
 ## Charm_
 
-A special thanks to all members of @charmcli, for developing Gum, and helping me debug `fbd.sh` and probably other code. A big big thanks.
+A special thanks to all members of @charmbracelet, for developing Gum, and helping me debug `fbd.sh` and probably other code. A big big thanks.
 **Not Sponsored**.
 
 GitHub : https://github.com/charmbracelet <br>
