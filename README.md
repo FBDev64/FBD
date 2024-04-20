@@ -10,7 +10,7 @@ FBD is a textual software in Shell or Hell(as ya want, pal) and mainly for Arch 
 ## Dev Ideas
 Add a dockerfile for GUM
 
-## Compile
+## Compile & Commands
 ```bash
 git clone https://github.com/FBDev64/FBD && cd FBD
 chmod +x launcher.sh
@@ -26,6 +26,7 @@ brew install gum
 # Arch (BTW)
 sudo pacman -S gum
 ```
+If you want to read the documentation, you can run the launcher and enter D then return.
 ## Charm_
 
 A special thanks to all members of [Charm](https://github.com/charmbracelet), for developing Gum, and helping me debug `fbd.sh` and probably other code. A big big thanks.
