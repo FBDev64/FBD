@@ -18,7 +18,11 @@ Then run the `launcher.sh` file.
 The only dependency is Gum. You need it in order to run FBD correctly, else you'll get an error. Download it with brew or your package manager.
 
 ```bash
+# MacOS and Linux
 brew install gum
+
+# Arch (BTW)
+sudo pacman -S gum
 ```
 ## Charm_
 
