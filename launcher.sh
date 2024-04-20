@@ -22,6 +22,9 @@ function choice () {
 	if [ "$MAI" = "Q" ]; then
 		exit
 	fi
+	if [ "$MAI" = "D" ]; then
+		gum pager < doc.md
+	fi
 }
 
 choice
