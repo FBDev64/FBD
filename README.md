@@ -7,6 +7,9 @@ FBD is a textual software in Shell or Hell(as ya want, pal) and mainly for Arch 
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 <br>Made with Nano 😎 and Arch.
 
+## Dev Ideas
+Add a dockerfile for GUM
+
 ## Compile
 ```bash
 git clone https://github.com/FBDev64/FBD && cd FBD
