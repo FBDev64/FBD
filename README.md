@@ -1,7 +1,6 @@
 # FBD
 
 FBD is a textual software in Shell or Hell(as ya want, pal) and mainly for Arch (BTW). So read jokes, and everything ya want. huh. <br>
-First to discover all easter eggs wins.
 
 ## Technical Badges
 ![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
