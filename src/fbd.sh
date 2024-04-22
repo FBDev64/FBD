@@ -10,19 +10,6 @@ while true
     #Input
 	VHS=$(gum input --placeholder " Enter Command")
     
-	function puns () {
-    		gum pager < ./src/under.txt
-     	} function nintendo () {
-     		gum pager < ./src/nintendo.txt
-     	} function help () {
-     		gum pager < ./doc.md
-     	} function edit () {
-     		$EDITOR "$(gum file "$FBD")"
-     	} function issue () {
-     		gum log --level info "Report issue at github.com/FBD/issues"
-     	} function date () {
-     		gum log --level info "$now"
-     	}
 	case $VHS in
 
 		exit | q | esc | bye)
@@ -32,22 +19,22 @@ while true
 			clear
 			;;
 		puns | under)
-			puns
+			gum pager < ./src/under.txt
 			;;
    		nintendo)
-     			nintendo
+     			gum pager < ./src/nintendo.txt
 			;;
 		help)
-			help
+			gum pager < ./doc.md
 			;;
 		edit | text | txt | file | editor | nano | vim | vi)
-			edit
+			$EDITOR "$(gum file "$FBD")"	
 			;;
 		issue)
-			issue
+			gum log --level info "Report issue at github.com/FBD/issues"
 			;;
 		time | date)
-			date
+			gum log --level info "$now"
 			;;
    		duck | goose)
      			gum pager < ./src/duck.txt
