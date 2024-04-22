@@ -1,7 +1,6 @@
 #!/bin/env bash
 
 # Customize Console
-PROMPT_COMMAND='echo -en "\033]0;$(FBD|cut -d "/" -f 4-100)\a"'
 now=$(date)
 echo "Undertale Jokes, that's all. Mainly. You know, as ya want."
 
@@ -9,9 +8,21 @@ while true
   do
 
     #Input
-    VHS=$(gum input --placeholder " Enter Command")
-
-    # Treat Input
+	VHS=$(gum input --placeholder " Enter Command")
+    
+	function puns () {
+    		gum pager < ./src/under.txt
+     	} function nintendo () {
+     		gum pager < ./src/nintendo.txt
+     	} function help () {
+     		gum pager < ./doc.md
+     	} function edit () {
+     		$EDITOR "$(gum file "$FBD")"
+     	} function issue () {
+     		gum log --level info "Report issue at github.com/FBD/issues"
+     	} function date () {
+     		gum log --level info "$now"
+     	}
 	case $VHS in
 
 		exit | q | esc | bye)
@@ -21,32 +32,32 @@ while true
 			clear
 			;;
 		puns | under)
-			gum pager < ./src/under.txt
+			puns
 			;;
    		nintendo)
-     			gum pager < ./src/nintendo.txt
+     			nintendo
 			;;
 		help)
-			gum pager < ./doc.md
+			help
 			;;
 		edit | text | txt | file | editor | nano | vim | vi)
-			$EDITOR "$(gum file "$FBD")"
+			edit
 			;;
 		issue)
-			gum log --level info "Report issue at github.com/FBD/issues"
+			issue
 			;;
 		time | date)
-			gum log --level info "$now"
+			date
 			;;
-   	duck | goose)
-     		gum pager < ./src/duck.txt
-				;;
-   	annoy | dog)
-     		gum pager < ./src/dog.txt
-				;;
+   		duck | goose)
+     			gum pager < ./src/duck.txt
+			;;
+   		annoy | dog)
+     			gum pager < ./src/dog.txt
+			;;
 
 		*)
-		echo -n "Command not found or not implemented yet."
-		;;
+			echo -n "Command not found or not implemented yet."
+			;;
 	esac
 done
