@@ -2,6 +2,11 @@
 name = "fbd-rs"
 version = "0.1.0"
 edition = "2021"
+license-file = "LICENSE"
+readme = "README.md"
+repository = "https://github.com/FBDev64/FBD.git"
+homepage = "https://github.com/FBDev64/FBD/tree/fbd-rs"
+description = "Rewrite in Rust of FBD at https://github.com/FBDev64/FBD"
 
 [dependencies]
 rand = "0.8.5"
