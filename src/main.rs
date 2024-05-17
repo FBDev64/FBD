@@ -1,7 +1,7 @@
 #[allow(unused_imports)]
 
 use rand::Rng;
-use chrono::{Local, DateTime};
+use chrono;
 use simple_user_input::get_input;
 
 fn main() {
