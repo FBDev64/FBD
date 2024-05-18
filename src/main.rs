@@ -9,7 +9,7 @@ fn main() {
     loop {
             let input: String = get_input("Enter Command, help to display commands");
             if input == "help" {
-                println!("Commands: \n1. joke \n2. exit")
+                println!("Commands: \n1. joke \n2. exit\n3. issue\n4. time")
             } if input == "joke" {
                 println!("{}", get_random_joke())
             } if input == "exit" {
