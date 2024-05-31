@@ -1,28 +1,28 @@
 #[allow(unused_imports)]
 
 use rand::Rng;
-use chrono::{Local, DateTime};
+use chrono;
 use simple_user_input::get_input;
 
 fn main() {
-    println!("Undertale Jokes, that's all. Mainly. You know, as ya want.");
+    println!("Read bad jokes, that's it..");
     loop {
-            let input: String = get_input("Enter Command, help to display commands");
-            if input == "help" {
-                println!("Commands: \n1. joke \n2. exit\n3. issue\n4. time")
-            } if input == "joke" {
-                println!("{}", get_random_joke())
-            } if input == "exit" {
-                break
-            } if input == "issue" {
-                println!("You can report issues or bugs at https://github.com/FBDev64/FBD/issues");
-                break;
-                
-            } if input == "time" {
-                let current_time = chrono::Local::now().format("%H:%M:%S").to_string();
-                println!("The current time is: {}", current_time);
-            }  if  input == "dog" {
-                println!("░░░░░░░░░░░░░░░░░░░░
+                let input: String = get_input("> Enter Command ");
+
+                if input == "help" {
+                    println!("Commands: \n1. joke \n2. exit\n3. issue\n4. time");
+                } if input == "joke" {
+                    println!("{}", get_random_joke())
+                } if input == "exit" {
+                    break;
+                } if input == "issue" {
+                    println!("You can report issues or bugs at https://github.com/FBDev64/FBD/issues");
+                    break;
+                } if input == "time" {
+                    let current_time = chrono::Local::now().format("%H:%M:%S").to_string();
+                    println!("The current time is: {}", current_time);
+                }  if  input == "dog" {
+                    println!("                    
                 ░▄▀▄▀▀▀▀▄▀▄░░░░░░░░░
                 ░█░░░░░░░░▀▄░░░░░░▄░
                 █░░▀░░▀░░░░░▀▄▄░░█░█
@@ -32,12 +32,11 @@ fn main() {
                 █░░░░░░░░░░░░░░░░░░█
                 ░█░░▄▄░░▄▄▄▄░░▄▄░░█░
                 ░█░▄▀█░▄▀░░█░▄▀█░▄▀░
-                ░░▀░░░▀░░░░░▀░░░▀░░░");
-            } else {
-                println!("Invalid command. Please try again.")
-            }
+                ░░▀░░░▀░░░░░▀░░░▀░░░
+                    ");
+                }
+        }
     }
-}
 
 fn get_random_joke() -> String {
     let jokes = vec![
