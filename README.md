@@ -24,7 +24,4 @@ Please make sure to update tests as appropriate.
 
 [BSD 3-Clause “New” or “Revised” License](https://choosealicense.com/licenses/bsd-3-clause/)
 
-<marquee direction="right" behavior="alternate" 
-        style="border:black 2px solid">
-        Made with Vim 😎.
-    </marquee>
+<br> Made with Vim 😎.
