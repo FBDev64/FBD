@@ -5,12 +5,12 @@ use chrono;
 use simple_user_input::get_input;
 
 fn main() {
-    println!("Read bad jokes, that's it..");
+    println!("Read puns, that's it..");
     loop {
                 let input: String = get_input("> Enter Command ");
 
                 if input == "help" {
-                    println!("Commands: \n1. joke \n2. exit\n3. issue\n4. time");
+                    println!("Commands: \n1. joke \n2. exit\n3. issue\n4. time\n LICENSE");
                 } if input == "joke" {
                     println!("{}", get_random_joke())
                 } if input == "exit" {
@@ -21,6 +21,8 @@ fn main() {
                 } if input == "time" {
                     let current_time = chrono::Local::now().format("%H:%M:%S").to_string();
                     println!("The current time is: {}", current_time);
+                } if input == "LICENSE" {
+                    println!("See the LICENSE file, BSD Clause 3. (c) Adam Ellouze, 2024");
                 }  if  input == "dog" {
                     println!("                    
                 ░▄▀▄▀▀▀▀▄▀▄░░░░░░░░░
