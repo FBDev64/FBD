@@ -12,7 +12,7 @@ FBD is a textual software in Shell or Hell(as ya want, pal) and mainly for Arch 
 git clone https://github.com/FBDev64/FBD && cd FBD
 cargo run -r
 ```
-No dependency that you need to manually install.
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first
