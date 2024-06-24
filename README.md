@@ -9,10 +9,9 @@ FBD is a textual software in Shell or Hell(as ya want, pal) and mainly for Arch 
 
 ## Compile & Commands
 ```bash
-git clone https://github.com/FBDev64/FBD && cd FBD
-cargo run -r
+cargo install fbd-rs
+fbd-rs
 ```
-
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first
